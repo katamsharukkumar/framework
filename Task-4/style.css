@@ -1,0 +1,41 @@
+.cointainer,header,.header-1,.header-2,.header-3,.main-1,.main-2,footer {
+  border-radius:  5px;
+  border-style: solid;
+
+}
+.cointainer {
+  width: 500px;
+  height: 500px;
+}
+header {
+  width: 470px;
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  align-items: center;
+  justify-content: space-around;
+}
+.header-1,.header-2,.header-3 {
+  width: 100px;
+  height: 100px;
+}
+main {
+  display: flex;
+  flex-direction: row;
+}
+.main-1 {
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+}
+.main-2 {
+  width: 150px;
+  height: 200px;
+  margin: 10px;
+}
+footer {
+  width: 470px;
+  height: 70px;
+  margin: 10px;
+}

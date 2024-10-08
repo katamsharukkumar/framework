@@ -1,0 +1,36 @@
+.cointainer {
+  width: 500px;
+  height: 500px;
+  border-style: solid;
+  border-radius: 5px;
+}
+
+.header-1,.header-2,.header-3 {
+  border-style: solid;
+  border-radius: 5px;
+  width: 100px;
+  height: 300px;
+  margin: 10px;
+}
+header,footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-3 {
+  width: 200px;
+}
+footer {
+  border-style: solid;
+  border-radius: 5px;
+  margin: 10px;
+  height: 150px;
+}
+.footer-1,.footer-2,.footer-3 {
+  border-style: solid;
+  border-radius: 5px;
+  width: 100px;
+  height: 120px;
+  margin: 10px;
+}

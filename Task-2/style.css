@@ -1,0 +1,57 @@
+.cointainer,.header-1,.header-2,
+.header-3,.main-1,.main-2,.section-1,.section-2,.footer,.sub-footer {
+  border-radius: 5px;
+  border-style: solid;
+}
+.cointainer {
+  height: 500px;
+  width: 500px;
+}
+header {
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+}
+.header-1,.header-2 {
+  height: 80px;
+  width: 100px;
+  margin: 10px;
+}
+.header-3 {
+  height: 80px;
+  width: 150px;
+  margin: 10px;
+}
+.main,.section,.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+ justify-content: center;
+}
+
+.main-1,.section-2{
+  height: 100px;
+  width: 150px;
+  margin: 10px;
+}
+.main-2,.section-1 {
+  height: 100px;
+  width: 300px;
+}
+.section-1 {
+  margin: 10px;
+}
+.footer {
+  width: 480px;
+  height: 100px;
+  margin-left: 10px;
+
+}
+
+.sub-footer {
+  width: 100px;
+  height: 50px;
+}

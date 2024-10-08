@@ -1,0 +1,36 @@
+.cointainer,header,.circle,main,section,footer {
+  border-radius: 5px;
+  border-style: solid;
+}
+
+.cointainer {
+  width: 500px;
+border-radius: 15%
+}
+
+header {
+  width: 450px;
+  height: 50px;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+.circle {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  margin-top: 20px;
+  margin-left: 30%;
+  border-radius: 50%;
+}
+main {
+  width: 300px;
+  height: 50px;
+  margin: 10px;
+  margin-left: 20%;
+}
+section,footer {
+  width: 400px;
+  height: 50px;
+  margin: 10px;
+  margin-left: 10%;
+}

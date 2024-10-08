@@ -1,0 +1,42 @@
+.cointainer,.circle,main,footer,header {
+  border-radius: 5px;
+  border-style: solid;
+}
+
+.cointainer {
+  width: 500px;
+  height: 500px;
+
+}
+
+header {
+  width: 470px;
+  height: 150px;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+margin: 10px;
+}
+.circle {
+  width: 100px;
+  height: 100px;
+  margin-left: 20px;
+  border-radius: 50%;
+}
+.menu {
+  width: 50px;
+  margin-right: 20px;
+}
+main {
+  width: 470px;
+  height: 200px;
+  margin: 10px;
+  border-radius: 25%;
+}
+footer {
+  width: 470px;
+  height: 100px;
+  margin: 10px;
+  border-radius: 30%;
+}
